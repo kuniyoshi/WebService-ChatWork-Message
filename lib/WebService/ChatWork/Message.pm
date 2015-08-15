@@ -36,7 +36,7 @@ __END__
 =encoding utf8
 =head1 NAME
 
-WebService::ChatWork::Message
+WebService::ChatWork::Message - Builds tag of ChatWork
 
 =head1 SYNOPSIS
 
