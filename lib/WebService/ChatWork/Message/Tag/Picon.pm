@@ -2,7 +2,10 @@ use strict;
 use warnings;
 package WebService::ChatWork::Message::Tag::Picon;
 use overload q{""} => \&as_string;
+use constant PRIMARY => "account_id";
 use Mouse;
+
+extends "WebService::ChatWork::Message::Tag";
 
 has account_id => ( is => "ro", isa => "Int" );
 

@@ -2,7 +2,10 @@ use strict;
 use warnings;
 package WebService::ChatWork::Message::Tag::Info;
 use overload q{""} => \&as_string;
+use constant PRIMARY => "message";
 use Mouse;
+
+extends "WebService::ChatWork::Message::Tag";
 
 has message => ( is => "ro", isa => "Str" );
 has title   => ( is => "ro", isa => "Str" );

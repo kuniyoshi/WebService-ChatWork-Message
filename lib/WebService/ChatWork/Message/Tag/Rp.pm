@@ -4,6 +4,8 @@ package WebService::ChatWork::Message::Tag::Rp;
 use overload q{""} => \&as_string;
 use Mouse;
 
+extends "WebService::ChatWork::Message::Tag";
+
 has account_id => ( is => "ro", isa => "Int" );
 has room_id    => ( is => "ro", isa => "Int" );
 has message_id => ( is => "ro", isa => "Int" );
