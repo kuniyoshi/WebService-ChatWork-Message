@@ -8,7 +8,7 @@ use WebService::ChatWork::Message::Tag;
 
 # ABSTRACT: A Tag Builder of ChatWork
 
-our $VERSION = "0.00";
+our $VERSION = '0.02';
 
 sub new {
     my $class  = shift;
