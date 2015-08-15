@@ -10,7 +10,7 @@ has title   => ( is => "ro", isa => "Str" );
 sub as_string {
     my $self = shift;
     if ( defined $self->title ) {
-        return sprintf "[info][tilte]%s[/title]%s[/info]", $self->title, $self->message;
+        return sprintf "[info][title]%s[/title]%s[/info]", $self->title, $self->message;
     }
     else {
         return sprintf "[info]%s[/info]", $self->message;
