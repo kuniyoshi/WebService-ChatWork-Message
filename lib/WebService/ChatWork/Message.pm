@@ -63,7 +63,7 @@ This module builds a tag which is defined by ChatWork.
 
 ChatWork API has a several tag syntaxes.
 
-It is too few time to write raw syntax, then
+It is too few times to write raw syntax, then
 I can not rememver how the syntax is.
 
 If this module is provided, the searching cost will be reduced.
